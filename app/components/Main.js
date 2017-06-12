@@ -62,31 +62,31 @@ let Main = React.createClass({
         return (
             <div className="container">
                 <div className="row">
-                    <div className="jumbotron">
-                        <h2 className="text-center">New York Times Article Scrubber</h2>
-                        <p className="text-center">
+                    <div className="card-panel">
+                        <h2 className="center-align">New York Times Article Scrubber</h2>
+                        <p className="center-align">
                             <em>Search for and annotate articles of interest!</em>
                         </p>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col s12">
                         <Search
-                            setTerm={this.setTerm}
+                            // setTerm={this.setTerm}
                         />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col s12">
                         <Results
-                            results={this.state.results}
+                            // results={this.state.results}
                         />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col s12">
                         <Saved
-                            saved={this.state.saved}
+                            // saved={this.state.saved}
                         />
                     </div>
                 </div>
