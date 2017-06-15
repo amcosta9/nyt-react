@@ -40,6 +40,23 @@ app.get("/", function(req, res) {
 
 // ----------
 // TODO add routes here
+
+// query db for all saved articles
+app.get('/api/saved', function(req, res) {
+    console.log("get route api/saved");
+});
+
+// save article to db
+app.post('/api/saved', function(req, res) {
+    console.log("post route api/saved");
+});
+
+// delete article from db
+app.delete('/api/saved', function(req, res) {
+    console.log("delete route api/saved");
+});
+
+
 // ----------
 
 // listener
